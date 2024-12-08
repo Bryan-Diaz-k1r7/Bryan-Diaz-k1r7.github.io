@@ -46,7 +46,7 @@ const Home = () => {
     
     if (validateForm()) {
       try {
-        const response = await fetch('http://bryandiaz-dev.duckdns.org:5000/api/mensajes', {
+        const response = await fetch('https://bryandiaz-dev.duckdns.org:5000/api/mensajes', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
