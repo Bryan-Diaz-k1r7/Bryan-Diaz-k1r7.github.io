@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilo para la barra de scroll completa */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Estilo para redondear y reducir el tamaño del thumb */
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  border: 3px solid #1a1a1a;
+  background: #6d28d9;
+
+}
+
+/* Hover sobre el thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: #5b21b6;
+}
+
+/* Estilo para el "track" (el fondo de la barra) */
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
