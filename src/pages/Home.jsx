@@ -5,8 +5,7 @@ import { projects } from '../data/projects';
 import ProjectCard from '../components/ProjectCard';
 import { GitHubIcon } from '../assets/icons/github';
 import { InstagramIcon } from '../assets/icons/instagram';
-import { LinkedInIcon } from '../assets/icons/linkedin';
-
+import { LinkedInIcon } from '../assets/icons/linkedin'
 const Home = () => {
   const [formData, setFormData] = useState({
     nombre: '',
@@ -83,7 +82,7 @@ const Home = () => {
 
   return (
       <main className="min-h-screen bg-[#1a1a1a]">
-
+        {/* Navbar */}
         <Navbar />
 
         <section id="inicio" className="container mx-auto pt-28 pb-16 sm:py-32 px-4">
