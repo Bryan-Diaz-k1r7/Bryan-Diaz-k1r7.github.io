@@ -1,3 +1,5 @@
+import blogPersonal from "../assets/images/proyectos/blogPersonal.jpeg";
+
 export const projects = [
 
   {
@@ -5,7 +7,7 @@ export const projects = [
     title: "Blog Personal",
     route: "bryandiaz-dev.duckdns.org/blogPersonal/", 
     description: "Blog con sistema de gestión de contenidos y comentarios",
-    image: "..\assets\images\proyectos\blogPersonal.jpeg",
+    image: blogPersonal,
   },
   {
     id: 2,
