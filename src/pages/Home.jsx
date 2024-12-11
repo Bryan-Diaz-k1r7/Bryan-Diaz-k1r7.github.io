@@ -168,6 +168,15 @@ const Home = () => {
                     <div className="flex flex-col items-center bg-[#1a1a1a] p-4 rounded-lg">
                       <span className="text-[#a78bfa]">Postman</span>
                     </div>
+                    <div className="flex flex-col items-center bg-[#1a1a1a] p-4 rounded-lg">
+                      <span className="text-[#a78bfa]">Intellij IDEA</span>
+                    </div>
+                    <div className="flex flex-col items-center bg-[#1a1a1a] p-4 rounded-lg">
+                      <span className="text-[#a78bfa]">Eclipse</span>
+                    </div>
+                    <div className="flex flex-col items-center bg-[#1a1a1a] p-4 rounded-lg">
+                      <span className="text-[#a78bfa]">Android Studio</span>
+                    </div>
                   </div>
                 </div>
 
@@ -181,10 +190,13 @@ const Home = () => {
                       <span className="text-[#a78bfa]">Python</span>
                     </div>
                     <div className="flex flex-col items-center bg-[#1a1a1a] p-4 rounded-lg">
-                      <span className="text-[#a78bfa]">Linux</span>
+                      <span className="text-[#a78bfa]">Linux distros</span>
                     </div>
                     <div className="flex flex-col items-center bg-[#1a1a1a] p-4 rounded-lg">
                       <span className="text-[#a78bfa]">Windows</span>
+                    </div>
+                    <div className="flex flex-col items-center bg-[#1a1a1a] p-4 rounded-lg">
+                      <span className="text-[#a78bfa]">Bash</span>
                     </div>
                   </div>
                 </div>
@@ -276,7 +288,7 @@ const Home = () => {
             <h2 className="text-3xl font-bold text-[#8b5cf6] text-center mb-8">Mis Redes Sociales</h2>
             <div className="flex justify-center space-x-12">
               <a 
-                href="https://github.com/Bryan-Diaz-k1r7" 
+                href="https://github.com/BryanDiaz-dev" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="group flex flex-col items-center"
@@ -289,7 +301,7 @@ const Home = () => {
                 <span className="text-[#a78bfa] group-hover:text-[#8b5cf6] transition-colors">GitHub</span>
               </a>
               <a 
-                href="https://www.instagram.com/_bryan.dev_" 
+                href="https://www.instagram.com/daniel_diazz._/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="group flex flex-col items-center"
