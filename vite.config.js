@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './',
+  base: '/',
   resolve: {
     extensions: ['.js', '.jsx', '.json']
   },
@@ -13,9 +13,16 @@ export default defineConfig({
     rollupOptions: {
       output: {
         format: 'es',
-        assetFileNames: 'assets/[name].[ext]',
-        chunkFileNames: 'assets/[name].[hash].js',
-        entryFileNames: 'assets/[name].[hash].js'
+        assetFileNames: (assetInfo) => {
+          if (assetInfo.name.endsWith('.jpeg') || 
+              assetInfo.name.endsWith('.jpg') || 
+              assetInfo.name.endsWith('.png')) {
+            return 'assets/images/[name].[ext]';
+          }
+          return 'assets/[name].[ext]';
+        },
+        chunkFileNames: 'assets/js/[name].[hash].js',
+        entryFileNames: 'assets/js/[name].[hash].js'
       }
     }
   },
