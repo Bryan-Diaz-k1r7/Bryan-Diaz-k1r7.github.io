@@ -5,7 +5,7 @@ export const projects = [
     title: "Blog Personal",
     route: "bryandiaz-dev.duckdns.org/blogPersonal/", 
     description: "Blog con sistema de gestión de contenidos y comentarios",
-    image: "../assets/images/blogPersonal.png",
+    image: "../assets/images/proyectos/blogPersonal.jpeg",
   },
   {
     id: 2,
