@@ -1,15 +1,10 @@
 import { Link } from 'react-router-dom';
 
 const ProjectCard = ({ project }) => {
-  const handleClick = (e) => {
-    e.preventDefault();
-    window.open(`http://${project.route}`, '_blank');
-  };
-
   return (
-    <div 
-      onClick={handleClick}
-      className="cursor-pointer transform transition-all duration-500 hover:scale-105 hover:-translate-y-2"
+    <Link 
+      to={`/project/${project.id}`}
+      className="block transform transition-all duration-500 hover:scale-105 hover:-translate-y-2"
     >
       <div 
         className="bg-[#222222] rounded-xl overflow-hidden border border-[#6d28d9]/20 transform hover:scale-[1.02] transition-transform duration-300 will-change-transform"
@@ -29,7 +24,7 @@ const ProjectCard = ({ project }) => {
           </p>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
